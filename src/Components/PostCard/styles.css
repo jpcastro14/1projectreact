@@ -1,0 +1,66 @@
+.post{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rbga(0,0,0,1);
+    transition: transform 200ms ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .post:hover{
+    transform: scale(1.02)
+  }
+  .post-content{
+    padding: 30px;
+    
+  }
+  
+  .main-nav {
+    margin-top: 5px;
+  
+  }
+  .logo a,
+  .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+      color: #bbbbbb;
+    display: block;
+    font-size: 100px;
+    
+  }
+  .post img{
+    max-width: 100%;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+  }
+
+  .navbar-main{
+    width: 100%;
+    height: 50px;
+    background: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .navbar-main a{
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  @media only screen and (max-width:658px){
+    .navbar-main{
+      display: flex;
+      justify-content: center;
+    }
+    .navbar-main a{
+      margin-left: -250px;
+    }
+  }
+
+
+   

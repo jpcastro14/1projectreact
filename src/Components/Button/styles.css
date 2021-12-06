@@ -1,0 +1,23 @@
+.button{
+    width: 100%;
+    background:rgb(10, 146, 170);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button:disabled{
+    width: 100%;
+    background:rgb(141, 141, 141);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: not-allowed;
+}
+.button-container{
+	width: 100%;
+	margin-top: 1em;
+	display: flex;
+}
